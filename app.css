@@ -15,8 +15,11 @@
 
 ========NAVBAR STYLING =============
 7. Make navbar brand more prominient
+8. Make navlinks white and hover on red
+9. Make navbar sticky to the top with bootstrap
 
 */
+
 body {
     background-color: lightpink;
     font-family: "Nunito", sans-serif;
@@ -29,13 +32,14 @@ body {
     font-weight: 100;
 }
 
-#mainNavbar .nav-link {
-color: white;
-}
-#mainNavbar .nav-link:hover {
-color: red;
+#mainNavbar .navbar-brand {
+    color: red;
 }
 
-#mainNavbar .navbar-brand {
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
     color: red;
 }
