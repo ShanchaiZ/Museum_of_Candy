@@ -1,0 +1,26 @@
+/* PseudoCode
+1. background color = pink
+
+========NAVBAR MARKUP CREATION =============
+2. look up Bootstrap docs --> CREATE NAVBAR BRAND with html
+3. CREATE navbar toggler where:
+* <button class="navbar-toggler"  => is the feature = which is nav button that toggles
+* type="button"  => button type button
+* data-toggle="collapse" => what the button will do. It will collapse when clicked
+* data-target="#" = what will it collapse as its data targets.
+* aria-controls="" aria-expanded="false" aria-label="Toggle navigation"> THIS IS ACCESSIBLITY FEATURES. Aria attributes
+4. Add the collapsible in navbar collapse and GIVE an ID = so the navbar toggler knows what to target for collapsing.
+5. Add the Navbar collapsible nav link items under a list item
+6. make it look nicer on custom css page (see NAVBAR CSS CUSTOM STYLING
+
+========NAVBAR STYLING =============
+7. Make navbar brand more prominient
+
+*/
+body {
+    background-color: lightpink;
+    font-family: "Nunito", sans-serif;
+}
+
+/* Navbar styling */
+
