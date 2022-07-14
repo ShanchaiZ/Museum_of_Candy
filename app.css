@@ -33,7 +33,8 @@ text is order-1 NORMALLLY BUT on mid screens => order-md-2
 17. THen copy the sections additional times
 18. option: add margin bottoms to space out the content
 
-======== NAVBAR SCROLLING EFFECT =============
+========Optional NAVBAR SCROLLING EFFECT =============
+Bonus: requires javascript
 
 */
 
@@ -96,6 +97,14 @@ body {
     line-height: 2rem;
 }
 
-.content{
+.content {
     margin-top: 100px;
+}
+
+/* NAVBAR SCROLLING EFFECT */
+
+.navbar.scrolled {
+    background-color: purple;
+    transition: background 500ms;
+
 }
