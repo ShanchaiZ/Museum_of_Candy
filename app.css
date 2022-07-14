@@ -28,28 +28,18 @@
 14. since 1 image and 1 text = 1/2 and 1/2 => bootstrap col-6
 15. center text horizontally in a col with text-center and vertically in row with justify
 16. NEW: we want to order text first then image to follow it. ASSIGN ORDER TO COLUMNS AND ROWS
-    img is order-2 NORMALLLY BUT on mid screens => order-md-1
-    text is order-1 NORMALLLY BUT on mid screens => order-md-2
-17.
+img is order-2 NORMALLLY BUT on mid screens => order-md-1
+text is order-1 NORMALLLY BUT on mid screens => order-md-2
+17. THen copy the sections additional times
+18. option: add margin bottoms to space out the content
+
+======== NAVBAR SCROLLING EFFECT =============
 
 */
 
 body {
     background-color: lightpink;
     font-family: "Nunito", sans-serif;
-}
-
-.blurb h2 {
-    color: red;
-    font-weight: 100;
-    font-size: 2.5rem;
-}
-
-.blurb p {
-    color: white;
-    font-weight: 100;
-    font-size: 1.2rem;
-    line-height: 2rem;
 }
 
 /* Navbar styling */
@@ -91,5 +81,21 @@ body {
 
 }
 
+/* ABOUT SECTION */
 
-/* 3 Body Sections */
+.blurb h2 {
+    color: red;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: white;
+    font-weight: 100;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.content{
+    margin-top: 100px;
+}
